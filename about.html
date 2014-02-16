@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+<head>
+
+    {% include "headincludes.html" %}
+
+
+</head>
+<body>
+<div class="body">
+
+<!-- Top-wrap -->
+<!--<div class="top-wrap">
+	<div class="container top-wrap-inner">
+		<div class="col-md-12">
+			<div class="top-login">
+				<!-- Welcome Guest! -->
+                <!-- <a href="#">User Login</a>
+			</div>
+
+			<a href="#">
+				<div class="top-language">Select Language</div>
+			</a>
+
+			<a href="#">
+				<div class="top-cart">Shoping Cart</div>
+			</a>
+		</div>
+	</div>
+</div>-->
+<!-- Top-wrap -->
+
+<!-- Header -->
+<header>
+   <div class="container">
+      <div class="col-md-12">
+         <!-- Logo -->
+         <div class="col-md-2">
+            <h1 class="logo"><a href="/"><img src="images/logo.png" title="Myskoo" class="img-responsive"></a></h1>
+         </div>
+
+
+          <!-- Navmenu -->
+          <div class="col-md-10">
+              <div id='topnav'>
+                  <ul class="top-menu">
+                      <li class='has-sub'>
+                          <a href='/'><span>Home</span></a>
+                          <!-- <ul>
+                              <li><a href="./index.html">Home - Version 1</a></li>
+                              <li><a href="./index_2.html">Home - Version 2</a></li>
+                              <li><a href="./index_3.html">Home - Version 3</a></li>
+                              <li><a href="./index_4.html">Home - Version 4</a></li>
+                              <li><a href="./index_5.html">Home - Version 5</a></li>
+                              <li><a href="./index_6.html">Home - Version 6</a></li>
+                              <li><a href="./index_7.html">Home - Version 7</a></li>
+                              <li><a href="./index_8.html">Home - Version 8</a></li>
+                              <li><a href="./index_9.html">Home - Version 9</a></li>
+                              <li><a href="./index_10.html">Home - Version 10</a></li>
+                           </ul>-->
+                      </li>
+                      <li class='has-sub'>
+                          <a href='/features'><span>Features</span></a>
+                          <!--<ul>
+                             <li class="has-sub">
+                                <a class="nav-sub" href='#'><span>Headers</span></a>
+                                <ul>
+                                   <li><a href="./index_header2.html">Header - Version 2</a></li>
+                                   <li><a href="./index_header3.html">Header - Version 3</a></li>
+                                   <li><a href="./index_header4.html">Header - Version 4</a></li>
+                                   <li><a href="./index_header5.html">Header - Version 5</a></li>
+                                   <li><a href="./index_header6.html">Header - Version 6</a></li>
+                                </ul>
+                             </li>
+                             <li class="has-sub">
+                                <a href='#'><span>Footers</span></a>
+                                <ul>
+                                   <li><a href="./footer_2.html">Footer - Version 2</a></li>
+                                   <li><a href="./footer_3.html">Footer - Version 3</a></li>
+                                   <li><a href="./footer_4.html">Footer - Version 4</a></li>
+                                </ul>
+                             </li>
+                             <li><a href='./shortcodes.html'><span>Elements</span></a></li>
+                             <li><a href='./pricing.html'><span>Pricing Table</span></a></li>
+                             <li><a href='./full-width.html'><span>Grid System</span></a></li>
+                          </ul>-->
+                      </li>
+                      <li class="active has-sub">
+                          <a href='/aboutus'><span>About Us</span></a>
+                          <!--<ul>
+                            <li><a href="./shop.html">Shop - Home</a></li>
+                            <li><a href="./shop_single.html">Shop Single</a></li>
+                          </ul>-->
+                      </li>
+                      <li>
+                          <a href='/contact'><span>Contact</span></a>
+                      </li>
+                      <li class="last">
+                          <a href='/login'><span>Login</span></a>
+                      </li>
+                      <!--<li class="has-sub">
+                          <a href='#'><span>Forums</span></a>
+                          <ul>
+                          <li><a href="./forums_1.html">Forum - Home</a></li>
+                            <li><a href="./forums_2.html">Forum - Post</a></li>
+                          </ul>
+                      </li>
+                      <li class='has-sub'>
+                         <a href='#'><span>Portfolio</span></a>
+                         <ul>
+                            <li class="has-sub">
+                               <a class="nav-sub" href='#'><span>Portfolio - style1</span></a>
+                               <ul>
+                                  <li><a href="./portfolio_1_2col.html">Portfolio - 2 Col</a></li>
+                                  <li><a href="./portfolio_1_3col.html">Portfolio - 3 Col</a></li>
+                                  <li><a href="./portfolio_1_4col.html">Portfolio - 4 Col</a></li>
+                               </ul>
+                            </li>
+                            <li class="has-sub">
+                               <a class="nav-sub" href='#'><span>Portfolio - style2</span></a>
+                               <ul>
+                                  <li><a href="./portfolio_2_2col.html">Portfolio - 2 Col</a></li>
+                                  <li><a href="./portfolio_2_3col.html">Portfolio - 3 Col</a></li>
+                               </ul>
+                            </li>
+                            <li><a href='./portfolio_3_3col.html'><span>Portfolio - style3</span></a></li>
+                            <li><a href='./portfolio_wsidebar.html'><span>Portfolio - w/sidebar</span></a></li>
+                            <li class="has-sub">
+                               <a class="nav-sub" href='#'><span>Portfolio - Single</span></a>
+                               <ul>
+                                  <li><a href="./portfolio_single1.html">Portfolio - single1</a></li>
+                                  <li><a href="./portfolio_single2.html">Portfolio - single2</a></li>
+                                  <li><a href="./portfolio_single3.html">Portfolio - single3</a></li>
+                               </ul>
+                            </li>
+                         </ul>
+                      </li>
+                      <li class='has-sub'>
+                         <a href='#'><span>Blog</span></a>
+                         <ul>
+                            <li><a href='./blog1.html'><span>Blog - version 1</span></a></li>
+                            <li><a href='./blog2.html'><span>Blog - version 2</span></a></li>
+                            <li><a href='./blog3.html'><span>Blog - version 3</span></a></li>
+                            <li><a href='./blog.html'><span>Blog - version 4</span></a></li>
+                            <li><a href='./blog4.html'><span>Blog - version 5</span></a></li>
+                            <li><a href='./blog5.html'><span>Blog - version 6</span></a></li>
+                            <li><a href='./blog6.html'><span>Blog - version 7</span></a></li>
+                            <li><a href='./blog_single.html'><span>Blog - Single</span></a></li>
+                         </ul>
+                      </li>
+                      <li class='has-sub-full'>
+                         <a href='#'><span>Pages</span></a>
+                         <ul class="full-sub">
+                            <li class="col-md-3">
+                               <ul>
+                                  <li class="sub-head">Page Layouts</li>
+                                  <li><a href="./full-width.html">Page Fullwidth</a></li>
+                                  <li><a href="./right_side_navigator.html">Page Right Sidebar</a></li>
+                                  <li><a href="./left_side_navigator.html">Page Left Sidebar</a></li>
+                                  <li><a href="./testimonials_1">Testimonials 1</a></li>
+                                  <li><a href="./testimonials_2">Testimonials 2</a></li>
+                                  <li><a href="./404.html">404 Page</a></li>
+                               </ul>
+                            </li>
+                            <li class="col-md-3">
+                               <ul>
+                                  <li class="sub-head">Product & Services</li>
+                                  <li><a href="./pricing.html">Pricing Table </a></li>
+                                  <li><a href="./shop.html">Product Page</a></li>
+                                  <li><a href="./shop_single.html">Product Single</a></li>
+                                  <li><a href="./services.html">Service Page 1</a></li>
+                                  <li><a href="./services_1.html">Service Page 2</a></li>
+                                  <li><a href="./forums_1.html">Forum Page 1</a></li>
+                               </ul>
+                            </li>
+                            <li class="col-md-3">
+                               <ul>
+                                  <li class="sub-head">Company</li>
+                                  <li><a href="./about_1.html">About Us Page 1</a></li>
+                                  <li><a href="./about_2.html">About Us Page 2</a></li>
+                                  <li><a href="./about_3.html">About Us Page 3</a></li>
+                                  <li><a href="./about_4.html">About Us Page 4</a></li>
+                                  <li><a href="./testimonials_1.html">Testimonials page 1</a></li>
+                                  <li><a href="./testimonials_2.html">Testimonials page 1</a></li>
+                               </ul>
+                            </li>
+                            <li class="col-md-3">
+                               <ul>
+                                  <li class="sub-head">Customers Support</li>
+                                  <li><a href="./contact.html">Contact Us 1</a></li>
+                                  <li><a href="./contact_1.html">Contact Us 2</a></li>
+                                  <li><a href="./contact_2.html">Contact Us 3</a></li>
+                                  <li><a href="./faq_1.html">FAQ Page 1</a></li>
+                                  <li><a href="./faq_1.html">FAQ Page 2</a></li>
+                                  <li><a href="./forums_2.html">Forum Page 2</a></li>
+                               </ul>
+                            </li>
+                         </ul>
+                      </li>
+                      <li class="has-sub">
+                         <a href='#'><span>Contact</span></a>
+                         <ul>
+                            <li><a href="./contact.html">Contact 1</a></li>
+                            <li><a href="./contact_1.html">Contact 2</a></li>
+                            <li><a href="./contact_2.html">Contact 3</a></li>
+                         </ul>
+                      </li>-->
+                  </ul>
+              </div>
+          </div>
+
+          <!-- Search -->
+	<!--<div class="head-search">
+		<form id="header-search" action="">
+			<input type="search" name="s"		 id="s" placeholder="Search">
+		</form>
+	</div>-->
+
+      </div>
+   </div>
+</header>
+<!-- Header -->
+
+<!-- Page Head -->
+<div class="page-head">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>About Us</h3>
+			</div>
+
+			<div class="ol-md-6">
+				<ol class="breadcrumb">
+					You are here:
+					<li><a href="index.html">Home</a></li>
+					<li class="active">About us</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Page Head -->
+
+<div class="space60"></div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 about-home">
+			<div class="col-md-12 no-padding">
+				<h2 class="section-title"><span>Who we are</span></h2>
+			</div>
+
+			<div class="col-md-12 no-padding clearfix media ">
+				<img class="pull-left" src="images/1.jpg" alt=""/>
+				<p>Mysoo is an online service for the schools to easily manage their school activity. Enables teachers-parents -students communication in a better way. We almost provide all the functionality needed to manage your institutions. The features are developed taking the suggestions and concerns of many top level school managers.</p>
+			</div>
+			<div class="white-panel">
+			    <p>We will simplify most of your school management activities and will help you to update your school with all the latest technology. </p>
+			</div>
+			<p>Our system is completely web based meaning that it can be accessed from any computer using internet access.
+                You can access from anywhere, anytime. Your data are stored in the world class highly secured servers.</p>
+		</div>
+
+		<div class="col-lg-6">
+			<div class="col-lg-12 no-padding r-quote">
+				<h5>Hi, Thanks for your interest</h5>
+				<p>Fill the form below to get a free demo</p>
+				<div class="sep"></div>
+				<form>
+					<input type="text" class="form-control form-email" id="request_demo_email" placeholder="Type your email...">
+					<div class="space15"></div>
+					<div class="row">
+						<div class="col-md-6">
+							<input type="text" class="form-control" id="request_demo_name" placeholder="Type your name...">
+						</div>
+						<div class="col-md-6">
+							<input type="text" class="form-control" id="request_demo_phone" placeholder="Type your phone number...">
+						</div>
+					</div>
+					<div class="form-btn-wrap">
+						<button class="button-blue btn form-control" onclick="requestDemo()" type="button">Request Demo</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="space80"></div>
+
+<!-- Team
+<div class="container home-works">
+	<div class="row">
+		<div class="col-md-12">
+            <h2 class="section-title"><span>Our Clients</span></h2>
+		</div>
+
+		<div id="team-content" class="owl-carousel">
+			<div class="item team-content">
+				<img src="demo/team/1a.jpg" class="img-responsive" alt=""/>
+				<div class="staff-info">
+					<h4>Eduart Hender <span>Senior Designer</span></h4>
+					<p>Mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Mauris vitae erat consequat auctor eu in elit.</p>
+
+					<ul class="team-social">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="item team-content">
+				<img src="demo/team/2a.jpg" class="img-responsive" alt=""/>
+				<div class="staff-info">
+					<h4>Eduart Hender <span>Senior Designer</span></h4>
+					<p>Mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Mauris vitae erat consequat auctor eu in elit.</p>
+
+					<ul class="team-social">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="item team-content">
+				<img src="demo/team/3a.jpg" class="img-responsive" alt=""/>
+				<div class="staff-info">
+					<h4>Eduart Hender <span>Senior Designer</span></h4>
+					<p>Mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Mauris vitae erat consequat auctor eu in elit.</p>
+
+					<ul class="team-social">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="item team-content">
+				<img src="demo/team/4a.jpg" class="img-responsive" alt=""/>
+				<div class="staff-info">
+					<h4>Eduart Hender <span>Senior Designer</span></h4>
+					<p>Mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Mauris vitae erat consequat auctor eu in elit.</p>
+
+					<ul class="team-social">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="item team-content">
+				<img src="demo/team/5a.jpg" class="img-responsive" alt=""/>
+				<div class="staff-info">
+					<h4>Eduart Hender <span>Senior Designer</span></h4>
+					<p>Mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Mauris vitae erat consequat auctor eu in elit.</p>
+
+					<ul class="team-social">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Team -->
+
+<div class="space80"></div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="col-lg-12 no-padding">
+				<h2 class="section-title"><span>Many more from us</span></h2>
+			</div>
+
+			<!-- Accordion -->
+			<div class="akordeon">
+				<div class="akordeon-item">
+					<div class="akordeon-item-head first">
+						<div class="akordeon-item-head-container">
+							<div class="akordeon-heading">Hosting - Free !</div>
+						</div>
+					</div>
+                    <!--
+					<div class="akordeon-item-body">
+						<div class="akordeon-item-content">
+							<p></p>
+						</div>
+					</div>
+					-->
+				</div>
+
+				<div class="akordeon-item">
+					<div class="akordeon-item-head">
+						<div class="akordeon-item-head-container">
+							<div class="akordeon-heading">Customisation - Free !</div>
+						</div>
+					</div>
+                    <!--
+					<div class="akordeon-item-body">
+						<div class="akordeon-item-content">
+							<p></p>
+						</div>
+					</div>
+					-->
+				</div>
+
+				<div class="akordeon-item">
+					<div class="akordeon-item-head">
+						<div class="akordeon-item-head-container">
+							<div class="akordeon-heading">No new hardware</div>
+						</div>
+					</div>
+                    <!--
+					<div class="akordeon-item-body">
+						<div class="akordeon-item-content">
+							<p>Lorem ipsum dolor slo onsec  tueraliquet Morbi nec In Curabitur lreaoreet nisl lorem in pellente e vidicus pannel . Lorem ipsum dolor slo onsec  tueraliquet Morbi nec In Curabitur lreaoreet nisl lorem in pellente nel lvidicus pannel</p>
+						</div>
+					</div>
+					-->
+				</div>
+
+				<div class="akordeon-item">
+					<div class="akordeon-item-head">
+						<div class="akordeon-item-head-container">
+							<div class="akordeon-heading">No new software</div>
+						</div>
+					</div>
+                    <!--
+					<div class="akordeon-item-body">
+						<div class="akordeon-item-content">
+							<p>Lorem ipsum dolor slo onsec  tueraliquet Morbi nec In Curabitur lreaoreet nisl lorem in pellente e vidicus pannel . Lorem ipsum dolor slo onsec  tueraliquet Morbi nec In Curabitur lreaoreet nisl lorem in pellente nel lvidicus pannel</p>
+						</div>
+					</div>
+					-->
+				</div>
+
+                <div class="akordeon-item">
+                    <div class="akordeon-item-head">
+                        <div class="akordeon-item-head-container">
+                            <div class="akordeon-heading">Easy to understand and work</div>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="akordeon-item-body">
+                        <div class="akordeon-item-content">
+                            <p>Lorem ipsum dolor slo onsec  tueraliquet Morbi nec In Curabitur lreaoreet nisl lorem in pellente e vidicus pannel . Lorem ipsum dolor slo onsec  tueraliquet Morbi nec In Curabitur lreaoreet nisl lorem in pellente nel lvidicus pannel</p>
+                        </div>
+                    </div>
+                    -->
+                </div>
+
+                <div class="akordeon-item">
+                    <div class="akordeon-item-head">
+                        <div class="akordeon-item-head-container">
+                            <div class="akordeon-heading">Highly secure</div>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="akordeon-item-body">
+                        <div class="akordeon-item-content">
+                            <p>Lorem ipsum dolor slo onsec  tueraliquet Morbi nec In Curabitur lreaoreet nisl lorem in pellente e vidicus pannel . Lorem ipsum dolor slo onsec  tueraliquet Morbi nec In Curabitur lreaoreet nisl lorem in pellente nel lvidicus pannel</p>
+                        </div>
+                    </div>
+                    -->
+                </div>
+			</div>
+		</div>
+
+		<!-- Testimonials -->
+		<div class="col-md-6 about-home">
+			<div class="col-md-12 no-padding">
+			<h2 class="section-title"><span>Testimonials</span></h2>
+			<div id="quoteslider" class="flexslider">
+                <div class="quote-wrap">
+                    <h6>Best for all schools</h6>
+                    <p>Simply the best administrative software. Easy to understand and easy to use. Thanks for Myskoo support in updating our school with the latest technology. You reduced our paperwork a lot. With Myskoo both the school and parents got benifited a lot</p>
+                    <div class="quote-author">
+                        <div class="quote-author-img">
+                            <img src="images/testimonial.jpg" alt=""/>
+                        </div>
+                        <h5>Robert Smith <span>Manager</span></h5>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Services
+<div class="section">
+    <div class="container">
+		<div class="col-lg-12">
+			<h2 class="section-title"><span>Professional Support</span></h2>
+		</div>
+
+		<div class="col-md-4 service-info">
+			<h6>Please take a look to be informed more about our great services & features</h6>
+			<p>Page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lore m ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,</p>
+		</div>
+
+        <div class="col-md-8 no-padding service-3">
+			<div class="col-md-12 no-padding">
+				<div class="col-md-6">
+					<div class="services1">
+						<span class="service-ico1"></span>
+						<h3>Shining Ideas</h3>
+						<p>Lorem ipsum dolor slo onsec  designs tueraliquet Morbi nec In Curabitur nel dolor slo onsec designs</p>	
+						<a href="#">Read More &rarr;</a>
+					</div>
+	          </div>
+
+	          <div class="col-md-6">
+				<div class="services1">
+					<span class="service-ico2"></span>
+					<h3>Design Therapy</h3>
+					<p>Lorem ipsum dolor slo onsec  designs tueraliquet Morbi nec In Curabitur nel dolor slo onsec designs</p>
+					<a href="#">Read More &rarr;</a>
+				</div>
+              </div>
+			</div>
+		</div>
+
+		<div class="col-md-12 no-padding">
+			<div class="col-md-6">
+				<div class="services1">
+					<span class="service-ico3"></span>
+					<h3>Responsive design</h3>
+					<p>Lorem ipsum dolor slo onsec  designs tueraliquet Morbi nec In Curabitur nel dolor slo onsec designs</p>
+					<a href="#">Read More &rarr;</a>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="services1">
+					<span class="service-ico1"></span>
+            		<h3>Shining Ideas</h3>
+		            <p>Lorem ipsum dolor slo onsec  designs tueraliquet Morbi nec In Curabitur nel dolor slo onsec designs</p>	
+					<a href="#">Read More &rarr;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Services -->
+
+<div class="space20"></div>
+
+<!-- Vertical tabs
+<section class="container vtabs">
+	<div class="row">
+		<div id="verticalTabs">
+			<ul>
+				<li><a href="#tabs-1">6 Home Pages</a></li>
+				<li><a href="#tabs-2">36 Psd Pages</a></li>
+				<li><a href="#tabs-3">200 Google Fonts</a></li>
+				<li><a href="#tabs-4">400 Icons</a></li>
+				<li class="ui-tabs-selected ui-state-active"><a href="#tabs-5">8 custom Widget</a></li>
+				<li><a href="#tabs-6">A lot of Features</a></li>
+				<li><a href="#tabs-7">Great Support</a></li>
+				<li><a href="#tabs-8">Lorem Ipsum</a></li>
+			</ul>
+
+			<div id="tabs-1">
+				<div class="vt-content">
+					<img src="demo/other/1.jpg" class="img-responsive" alt=""/>
+					<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+				</div>
+			</div>
+		
+			<div id="tabs-2">
+				<div class="vt-content">
+					<img src="demo/other/2.jpg" class="img-responsive" alt=""/>
+					<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+				</div>
+			</div>
+		
+			<div id="tabs-3">
+				<div class="vt-content">
+					<img src="demo/other/1.jpg" class="img-responsive" alt=""/>
+					<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+				</div>
+			</div>
+		
+			<div id="tabs-4">
+				<div class="vt-content">
+					<img src="demo/other/2.jpg" class="img-responsive" alt=""/>
+					<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+				</div>
+			</div>
+		
+			<div id="tabs-5">
+				<div class="carousel-video carousel-video2 ">
+					<div class="video">
+	                	<iframe src="http://player.vimeo.com/video/1084537?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" height="300"></iframe>
+					</div>
+					<div class="shadow-left-big"></div>
+				</div>
+			</div>
+		
+			<div id="tabs-6">
+				<div class="vt-content">
+					<img src="demo/other/1.jpg" class="img-responsive" alt=""/>
+					<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+				</div>
+			</div>
+		
+			<div id="tabs-7">
+				<div class="vt-content">
+					<img src="demo/other/2.jpg" class="img-responsive" alt=""/>
+					<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+				</div>
+			</div>
+		
+			<div id="tabs-8">
+				<div class="vt-content">
+					<img src="demo/other/1.jpg" class="img-responsive" alt=""/>
+					<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Vertical tabs -->
+
+
+<!-- Clients -->
+<!--<div class="container home-works">
+	<div class="row">
+		<div class="col-lg-12">
+			<h2 class="section-title"><span>Our Clients</span></h2>
+		</div>
+
+		<div id="client-content" class="owl-carousel">
+			<div class="item client-content">
+				<img src="demo/clients/1.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/2.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/3.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/4.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/5.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/2.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/4.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/1.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/3.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/5.png" alt=""/>
+			</div>
+			<div class="item client-content">
+				<img src="demo/clients/1.png" alt=""/>
+			</div>
+	       </div>
+	   </div>
+	</div>
+</div>-->
+</div>
+
+
+
+
+<!-- Footer and Footer Copyright -->
+
+{%include "footer.html" %}
+
+<!-- Footer and Footer Copyright -->
+
+</div>
+
+
+{% include "scriptincludes.html" %}
+
+
+</body>
+</html>

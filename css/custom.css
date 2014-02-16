@@ -1,0 +1,39 @@
+
+.get_email_id {
+    text-decoration: none solid rgb(160, 160, 160) !important;
+    color: rgb(160,160,160);
+    font-family: 'open-sans';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+.sendEmailIdResultDiv {
+    text-decoration: none solid rgb(160, 160, 160) !important;
+    color: rgb(160,160,160);
+    font-family: 'open-sans';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 10px;
+}
+
+.contact_form_holder {
+    text-decoration: none solid rgb(138, 138, 138) !important;
+    color: rgb(138, 138, 138);
+    font-family: 'open-sans';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+
+}
+
+.getInTouchLink {
+    color: rgb(138, 138, 138);
+    font-family: 'open-sans';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+}

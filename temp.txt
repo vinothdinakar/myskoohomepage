@@ -1,0 +1,40 @@
+        bodyText = """
+              Dear """ + contact_name + """:
+
+              Thanks for your interest in Myskoo. One of our member from our support team will soon
+              be contacting you. We will talk to you and get your requirements and will
+              try to give you a better solution.
+              You can also request for a demo from our support staff.
+
+              Thanks,
+              Anish Johnson,
+              Chief Operational Manager.
+
+        """
+
+
+        mail.send_mail(sender="Myskoo.in Support <admin@myskoo.in>",
+                      to=contact_email,
+                      bcc="Myskoo.in Support <admin@myskoo.in>",
+                      subject="Thanks for your interest",
+                      body=bodyText)
+
+
+
+
+        message.html = """
+        <html><head></head><body>
+        <a><img src="images/logo.png" title="Myskoo" class="img-responsive"></a>
+        Dear """ + contact_name + """:
+
+        Thanks for your interest in Myskoo. One of our member from our support team will soon
+        be contacting you. We will talk to you and get your requirements and will
+        try to give you a better solution.<br>
+        You can also request for a demo from our support staff.<br>
+
+        Thanks,<br>
+        Anish Johnson,<br>
+        Chief Operational Manager.<br>
+        </body></html>
+        """
+

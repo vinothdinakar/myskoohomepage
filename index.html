@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+<head>
+
+    {% include "headincludes.html" %}
+
+</head>
+<body>
+<div class="body">
+
+<!-- Top-wrap -->
+<!--<div class="top-wrap">
+	<div class="container top-wrap-inner">
+		<div class="col-md-12">
+			<div class="top-login">
+				<!-- Welcome Guest! -->
+                <!-- <a href="#">User Login</a>
+			</div>
+
+			<a href="#">
+				<div class="top-language">Select Language</div>
+			</a>
+
+			<a href="#">
+				<div class="top-cart">Shoping Cart</div>
+			</a>
+		</div>
+	</div>
+</div>-->
+<!-- Top-wrap -->
+
+<!-- Header -->
+<header>
+   <div class="container">
+      <div class="col-md-12">
+         <!-- Logo -->
+         <div class="col-md-2">
+            <h1 class="logo"><a href="/"><img src="images/logo.png" title="Myskoo" class="img-responsive"></a></h1>
+         </div>
+         
+        <!-- Navmenu -->
+         <div class="col-md-10">
+            <div id='topnav'>
+               <ul class="top-menu">
+                  <li class='active has-sub'>
+                     <a href='/'><span>Home</span></a>
+                    <!-- <ul>
+                        <li><a href="./index.html">Home - Version 1</a></li>
+                        <li><a href="./index_2.html">Home - Version 2</a></li>
+                        <li><a href="./index_3.html">Home - Version 3</a></li>
+                        <li><a href="./index_4.html">Home - Version 4</a></li>
+                        <li><a href="./index_5.html">Home - Version 5</a></li>
+                        <li><a href="./index_6.html">Home - Version 6</a></li>
+                        <li><a href="./index_7.html">Home - Version 7</a></li>
+                        <li><a href="./index_8.html">Home - Version 8</a></li>
+                        <li><a href="./index_9.html">Home - Version 9</a></li>
+                        <li><a href="./index_10.html">Home - Version 10</a></li>
+                     </ul>-->
+                  </li>
+                  <li class='has-sub'>
+                     <a href='/features'><span>Features</span></a>
+                     <!--<ul>
+                        <li class="has-sub">
+                           <a class="nav-sub" href='#'><span>Headers</span></a>
+                           <ul>
+                              <li><a href="./index_header2.html">Header - Version 2</a></li>
+                              <li><a href="./index_header3.html">Header - Version 3</a></li>
+                              <li><a href="./index_header4.html">Header - Version 4</a></li>
+                              <li><a href="./index_header5.html">Header - Version 5</a></li>
+                              <li><a href="./index_header6.html">Header - Version 6</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a href='#'><span>Footers</span></a>
+                           <ul>
+                              <li><a href="./footer_2.html">Footer - Version 2</a></li>
+                              <li><a href="./footer_3.html">Footer - Version 3</a></li>
+                              <li><a href="./footer_4.html">Footer - Version 4</a></li>
+                           </ul>
+                        </li>
+                        <li><a href='./shortcodes.html'><span>Elements</span></a></li>
+                        <li><a href='./pricing.html'><span>Pricing Table</span></a></li>
+                        <li><a href='./full-width.html'><span>Grid System</span></a></li>
+                     </ul>-->
+                  </li>
+                  <li class="has-sub">
+                       <a href='/aboutus'><span>About Us</span></a>
+                       <!--<ul>
+                         <li><a href="./shop.html">Shop - Home</a></li>
+                         <li><a href="./shop_single.html">Shop Single</a></li>
+                       </ul>-->
+                  </li>
+                  <li>
+                       <a href='/contact'><span>Contact</span></a>
+                  </li>
+                  <li class="last">
+                       <a href='/login'><span>Login</span></a>
+                  </li>
+                  <!--<li class="has-sub">
+                      <a href='#'><span>Forums</span></a>
+                      <ul>
+	                  <li><a href="./forums_1.html">Forum - Home</a></li>
+                        <li><a href="./forums_2.html">Forum - Post</a></li>
+                      </ul>
+                  </li> 
+                  <li class='has-sub'>
+                     <a href='#'><span>Portfolio</span></a>
+                     <ul>
+                        <li class="has-sub">
+                           <a class="nav-sub" href='#'><span>Portfolio - style1</span></a>
+                           <ul>
+                              <li><a href="./portfolio_1_2col.html">Portfolio - 2 Col</a></li>
+                              <li><a href="./portfolio_1_3col.html">Portfolio - 3 Col</a></li>
+                              <li><a href="./portfolio_1_4col.html">Portfolio - 4 Col</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a class="nav-sub" href='#'><span>Portfolio - style2</span></a>
+                           <ul>
+                              <li><a href="./portfolio_2_2col.html">Portfolio - 2 Col</a></li>
+                              <li><a href="./portfolio_2_3col.html">Portfolio - 3 Col</a></li>
+                           </ul>
+                        </li>
+                        <li><a href='./portfolio_3_3col.html'><span>Portfolio - style3</span></a></li>
+                        <li><a href='./portfolio_wsidebar.html'><span>Portfolio - w/sidebar</span></a></li>
+                        <li class="has-sub">
+                           <a class="nav-sub" href='#'><span>Portfolio - Single</span></a>
+                           <ul>
+                              <li><a href="./portfolio_single1.html">Portfolio - single1</a></li>
+                              <li><a href="./portfolio_single2.html">Portfolio - single2</a></li>
+                              <li><a href="./portfolio_single3.html">Portfolio - single3</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class='has-sub'>
+                     <a href='#'><span>Blog</span></a>
+                     <ul>
+                        <li><a href='./blog1.html'><span>Blog - version 1</span></a></li>
+                        <li><a href='./blog2.html'><span>Blog - version 2</span></a></li>
+                        <li><a href='./blog3.html'><span>Blog - version 3</span></a></li>
+                        <li><a href='./blog.html'><span>Blog - version 4</span></a></li>
+                        <li><a href='./blog4.html'><span>Blog - version 5</span></a></li>
+                        <li><a href='./blog5.html'><span>Blog - version 6</span></a></li>
+                        <li><a href='./blog6.html'><span>Blog - version 7</span></a></li>
+                        <li><a href='./blog_single.html'><span>Blog - Single</span></a></li>
+                     </ul>
+                  </li>
+                  <li class='has-sub-full'>
+                     <a href='#'><span>Pages</span></a>
+                     <ul class="full-sub">
+                        <li class="col-md-3">
+                           <ul>
+                              <li class="sub-head">Page Layouts</li>
+                              <li><a href="./full-width.html">Page Fullwidth</a></li>
+                              <li><a href="./right_side_navigator.html">Page Right Sidebar</a></li>
+                              <li><a href="./left_side_navigator.html">Page Left Sidebar</a></li>
+                              <li><a href="./testimonials_1">Testimonials 1</a></li>
+                              <li><a href="./testimonials_2">Testimonials 2</a></li>
+                              <li><a href="./404.html">404 Page</a></li>
+                           </ul>
+                        </li>
+                        <li class="col-md-3">
+                           <ul>
+                              <li class="sub-head">Product & Services</li>
+                              <li><a href="./pricing.html">Pricing Table </a></li>
+                              <li><a href="./shop.html">Product Page</a></li>
+                              <li><a href="./shop_single.html">Product Single</a></li>
+                              <li><a href="./services.html">Service Page 1</a></li>
+                              <li><a href="./services_1.html">Service Page 2</a></li>
+                              <li><a href="./forums_1.html">Forum Page 1</a></li>
+                           </ul>
+                        </li>
+                        <li class="col-md-3">
+                           <ul>
+                              <li class="sub-head">Company</li>
+                              <li><a href="./about_1.html">About Us Page 1</a></li>
+                              <li><a href="./about_2.html">About Us Page 2</a></li>
+                              <li><a href="./about_3.html">About Us Page 3</a></li>
+                              <li><a href="./about_4.html">About Us Page 4</a></li>
+                              <li><a href="./testimonials_1.html">Testimonials page 1</a></li>
+                              <li><a href="./testimonials_2.html">Testimonials page 1</a></li>
+                           </ul>
+                        </li>
+                        <li class="col-md-3">
+                           <ul>
+                              <li class="sub-head">Customers Support</li>
+                              <li><a href="./contact.html">Contact Us 1</a></li>
+                              <li><a href="./contact_1.html">Contact Us 2</a></li>
+                              <li><a href="./contact_2.html">Contact Us 3</a></li>
+                              <li><a href="./faq_1.html">FAQ Page 1</a></li>
+                              <li><a href="./faq_1.html">FAQ Page 2</a></li>
+                              <li><a href="./forums_2.html">Forum Page 2</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="has-sub">
+                     <a href='#'><span>Contact</span></a>
+                     <ul>
+                        <li><a href="./contact.html">Contact 1</a></li>
+                        <li><a href="./contact_1.html">Contact 2</a></li>
+                        <li><a href="./contact_2.html">Contact 3</a></li>
+                     </ul>
+                  </li>-->
+               </ul>
+            </div>
+         </div>
+
+	<!-- Search -->
+	<!--<div class="head-search">
+		<form id="header-search" action="">
+			<input type="search" name="s"		 id="s" placeholder="Search">
+		</form>
+	</div>-->
+
+      </div>
+   </div>
+</header>
+<!-- Header -->
+
+<!-- Slider -->
+ <div class="fullwidthbanner-container" >
+	<div class="fullwidthbanner">
+		<ul>
+            <!--
+			<li data-transition="random" data-slotamount="7" data-masterspeed="1000">
+				<img src="images/bg1.png" alt="slide" data-fullwidthcentering="true">
+				<div class="tp-caption large_black sfr" data-x="330" data-y="-20" data-speed="1500" data-start="600" data-easing="easeInOutBack">
+					<img src="images/women.png" alt="slide" >
+				</div>
+				<div class="tp-caption large_black sfr carousel-caption-inner" data-x="30" data-y="80" data-speed="1100" data-start="1100" data-easing="easeInOutBack" style="font-size:36px;">
+					<h3>Building Better Solution <span>To manage your schools</span></h3>
+				</div>
+				<div class="tp-caption large_black sfr carousel-caption-inner" data-x="30" data-y="196" data-speed="1100" data-start="1400" data-easing="easeInOutBack">
+                    <p>With the help of growing latest technologies,<br> upgrade your schools for a better competition.<br> Connect with Myskoo and ease off your <br>management activities</p>
+				</div>
+				<div class="tp-caption lfb carousel-caption-inner" data-x="30" data-y="310" data-speed="1300" data-start="1700" data-easing="easeInOutBack">
+					<button type="button" class="button-blue" >Purchase Now!</button>
+				</div>
+			</li>
+            -->
+			<li data-transition="random" data-slotamount="7" data-masterspeed="1000">
+				<img src="images/bg1.png" alt="slide" data-fullwidthcentering="true">
+				<div class="caption large_black lfr" data-x="445" data-y="55" data-speed="1500" data-start="600" data-easing="easeInOutElastic">
+					<div class="carousel-video">
+						<div class="video">
+
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/ld4b0tgavug?rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="shadow-left-big"></div>
+					</div>
+				</div>
+				<div class="caption large_black randomrotate carousel-caption-inner" data-x="30" data-y="80" data-speed="1500" data-start="1100" data-easing="easeInOutBack">
+                    <h3>Building Better Solution <span>To manage your schools</span></h3>
+				</div>
+				<div class="tp-caption large_black randomrotate carousel-caption-inner" data-x="30" data-y="196" data-speed="1500" data-start="1400" data-easing="easeInOutBack">
+                    <p>With the help of growing latest technologies,<br> upgrade your schools for a better competition.<br> Connect with Myskoo and ease off your <br>management activities</p>
+				</div>
+				<div class="tp-caption lfb carousel-caption-inner" data-x="30" data-y="310" data-speed="1500" data-start="1700" data-easing="easeInOutBack">
+					<a href="/aboutus"><button type="button" class="button-blue" >Request Demo</button></a>
+				</div>
+			</li>
+            <li data-transition="random" data-slotamount="7" data-masterspeed="1000">
+                <img src="images/bg2.png" alt="slide" data-fullwidthcentering="true">
+                <div class="tp-caption large_black sfr" data-x="350" data-y="0" data-speed="1500" data-start="600" data-easing="easeInOutBack">
+                    <img src="images/man.png" alt="slide" >
+                </div>
+                <div class="tp-caption large_black lfl carousel-caption-inner" data-x="30" data-y="70" data-speed="900" data-start="800" data-easing="easeInOutQuad">
+                    <h5>Better solution for schools</h5>
+                </div>
+                <div class="tp-caption large_black lfl carousel-caption-inner" data-x="30" data-y="125" data-speed="900" data-start="1100" data-easing="easeInOutQuad">
+                    <h6>With a lot of Goodies <i class="fa fa-plus"></i></h6>
+                </div>
+                <div class="tp-caption large_black lfl carousel-caption-inner" data-x="30" data-y="215" data-speed="900" data-start="1400" data-easing="easeInOutQuad">
+                    <h5>Connecting school-parents-students</h5>
+                </div>
+                <div class="tp-caption large_black lfl carousel-caption-inner" data-x="30" data-y="270" data-speed="900" data-start="1800" data-easing="easeInOutQuad">
+                    <h6><i class="fa fa-plus"></i> Amazing features</h6>
+                </div>
+            </li>
+		</ul>
+	</div>
+</div>
+<!-- Slider -->
+
+<!-- Services -->
+<div class="section">
+	<div class="container">
+		<div class="col-lg-4 col-md-4">
+			<div class="services">
+				<div class="shadow-right"></div>
+				<span class="service-ico1"></span>
+		            <h3>Help &amp; Support</h3>
+		            <p>Myskoo provides complete help and support to your staff to understand and make use of all our features</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4">
+			<div class="services">
+				<div class="shadow-right"></div>
+				<span class="service-ico2"></span>
+				<h3>Security</h3>
+				<p>Data security is our important consideration. Your data are stored in the world class highly secured servers</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4">
+			<div class="services">
+				<div class="shadow-right"></div>
+				<span class="service-ico4"></span>
+		            <h3>Better Solution</h3>
+		            <p>We aim to provide you the better solution with all new technologies for managing your educational institution</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Services -->
+
+<div class="container">
+<h3 class="text-center">Features</h3>
+	<section class="boxes">
+		<div class="col-md-4 feature_border" id="col1">
+			<div class="box">
+				<h2><a title="Student Information" href="">Student Information</a></h2>
+<p><span>The complete student profile are stored in the myskoo system. School, staff and parents can access it from anywhere using internet</span></p>
+			</div>
+			<div class="box">
+				<h2><a title="Grade Book" href="">Grade Book</a></h2>
+<p><span>Teachers can update gradebook easily with our myskoo system. Forget the usual papers and use our system with mobile devices or tablets</span></p>
+			</div>	
+			<div class="box">
+				<h2><a title="Staff Information" href="">Staff Information</a></h2>
+<p><span>All the staffs profile are stored in the myskoo online system. School management and parent can easily access staff details</span></p>
+			</div>
+			
+		</div>
+        
+        <div class="col-md-4 feature_border" id="col2">
+			<div class="box">
+			<h2><a title="" href="">Attendance</a></h2>
+<p>Myskoo helps you to take the attendance using mobile devices like ipad and android tablets. Forget about your paper works !!</p>
+			
+			</div>
+			<div class="box">
+				<h2><a title="Online Space" href="">Online Space</a></h2>
+<p><span>Myskoo provides an online space for all schools in our network. The school can show their basic info in that space to attract future students</span></p>
+			</div>
+			<div class="box">
+				<h2><a title="Messaging system" href="">Messaging system</a></h2>
+<p><span>Messaging system helps the school admin to update parents about their child attendance and mark sheet. We provide both Email or sms</span></p>
+			</div>
+			
+		</div>
+        
+        <div class="col-md-4 feature_border_none" id="col3">
+			<div class="box">
+				<h2><a title="Time tables" href="">Time tables</a></h2>
+<p><span>You can create weekly & exam schedules for each classes. Parents will have the access to look at their child's time table online</span></p>
+			</div>
+			<div class="box">
+				<h2><a title="Reports" href="">Reports</a></h2>
+<p><span>Myskoo helps staff and school management to generate student reports and staff reports for better analysis and management </span></p>
+			</div>
+            <div class="box">
+                <h2><a title="Reports" href="">Student Admission</a></h2>
+                <p><span>Myskoo helps you to do all of your admission processes online. Helps parents to apply and enroll online. No need of long queues</span></p>
+            </div>
+
+			
+			
+		</div>
+	</section>
+</div>
+
+<div class="space80"></div>
+
+<!-- Call-to-action Wrap -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="cta-box">
+				<div class="col-lg-9 col-md-9">
+					<h4>We provide almost all the features needed to manage a school</h4>
+					<p>All features are developed taking in suggestions and concerns from top school management</p>
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<div class="space10"></div>
+					<a href="/features"><button type="button" class="button-blue pull-right padd30">More Features!</button></a>
+				</div>
+
+				<div class="shadow-left"></div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Call-to-action Wrap -->
+
+<div class="space80"></div>
+
+
+
+<!-- Social wrap -->
+
+
+<!-- Social wrap -->
+
+
+<!-- Footer and Footer Copyright -->
+
+    {%include "footer.html" %}
+
+<!-- Footer and Footer Copyright -->
+
+
+</div>
+
+
+    {% include "scriptincludes.html" %}
+
+</body>
+</html>
